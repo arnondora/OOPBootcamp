@@ -5,7 +5,7 @@ public class Home
 	//Properties
 	private String name;
 	private String color;
-	private ArrayList things;
+	private ArrayList<Chair> things;
 	
 	//Constructor
 	public Home (String color)
@@ -13,7 +13,7 @@ public class Home
 		this.color = color;
 		setName("Hello");
 		
-		things = new ArrayList();
+		things = new ArrayList<Chair>();
 	}
 	
 	//Method

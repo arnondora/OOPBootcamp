@@ -29,8 +29,7 @@ public class HomeTester
 		home1.setColor(new String("Green"));
 		
 		home1.addNewChair(new Chair("Yellow","Home1"));
-		home1.addNewChair(new Chair("Blue","Home1"));
-		
+		home1.addNewChair(new Chair("Blue","Home1"));		
 		sc.close();
 	}
 }
